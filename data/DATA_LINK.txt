@@ -1,0 +1,7 @@
+📁 Dataset Repository for ClustRecoNet
+
+Due to the large size of the dataset files, they are not directly included in this GitHub repository.
+
+You can download all the necessary data files from the following Google Drive link:
+
+🔗 https://drive.google.com/drive/folders/1YGou3d8ItorDDruUGti89oJFF2X9whc_?usp=sharing

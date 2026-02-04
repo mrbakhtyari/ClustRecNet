@@ -1,0 +1,7 @@
+Model,Comparison,Wilcoxon Statistic,p-value,Proposed Better?,Statistically Significant?
+ClustRecNet (CH),ClustRecNet (CH) vs Baseline CNN,58.0,0.013115618631590054,Yes,Yes
+ClustRecNet (CH),ClustRecNet (CH) vs AutoCluster (CH),151.0,0.0021685110894488335,Yes,Yes
+ClustRecNet (CH),ClustRecNet (CH) vs AutoCluster (SIL),189.0,7.754788639788509e-05,Yes,Yes
+ClustRecNet (CH),ClustRecNet (CH) vs AutoCluster (DB),190.0,6.591694449141665e-05,Yes,Yes
+ClustRecNet (CH),ClustRecNet (CH) vs AML4C,185.0,0.00014628219220096648,Yes,Yes
+ClustRecNet (CH),ClustRecNet (CH) vs ML2DAC,160.0,0.004451692557940693,Yes,Yes

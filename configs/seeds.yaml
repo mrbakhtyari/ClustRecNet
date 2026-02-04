@@ -1,0 +1,39 @@
+kmeans:
+  n_clusters: ${num_clusters}
+  n_init: 100
+  random_state: ${random_state}
+kmedians:
+  n_clusters: ${num_clusters}
+  n_init: 100
+  random_state: ${random_state}
+spectral_clustering:
+  n_clusters: ${num_clusters}
+  eigen_solver: arpack
+  affinity: nearest_neighbors
+  random_state: ${random_state}
+ward:
+  n_clusters: ${num_clusters}
+  n_neighbors: 3
+  linkage: ward
+agglomerative:
+  n_clusters: ${num_clusters}
+  n_neighbors: 6
+  metric: cosine
+  linkage: complete
+dbscan:
+  eps: 1.0
+  min_samples: 5
+hdbscan:
+  min_samples: 6
+  min_cluster_size: 15
+optics:
+  min_samples: 10
+  xi: 0.05
+  min_cluster_size: 0.5
+birch:
+  n_clusters: ${num_clusters}
+  threshold: 0.1
+gaussian:
+  n_components: ${num_clusters}
+  covariance_type: full
+  random_state: ${random_state}

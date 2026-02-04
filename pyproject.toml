@@ -1,0 +1,26 @@
+[project]
+name = "ClustRecNet"
+version = "0.1.0"
+description = "A Novel End-to-End Deep Learning Framework for Clustering Algorithm Recommendation"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "networkx>=3.6.1",
+    "numba>=0.62.1",
+    "numpy>=2.3.5",
+    "openai>=2.9.0",
+    "pandas>=2.3.3",
+    "pytest>=9.0.2",
+    "python-dotenv>=1.2.1",
+    "pyyaml>=6.0.3",
+    "repliclust>=1.0.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+    "torch>=2.9.1",
+    "torchsummary>=1.5.1",
+    "tqdm>=4.67.1",
+    "umap-learn>=0.5.9.post2",
+]
